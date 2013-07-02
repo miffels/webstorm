@@ -1,9 +1,7 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="cb7471b8-80a7-40c7-a8f6-5dbcb628d4ba" name="Default" comment="">
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/view/style/style.scss" afterPath="$PROJECT_DIR$/src/view/style/style.scss" />
-    </list>
+    <list default="true" id="cb7471b8-80a7-40c7-a8f6-5dbcb628d4ba" name="Default" comment="" />
     <ignored path="AngularJS.iws" />
     <ignored path=".idea/workspace.xml" />
     <file path="/index.html" changelist="cb7471b8-80a7-40c7-a8f6-5dbcb628d4ba" time="1372601933946" ignored="false" />
