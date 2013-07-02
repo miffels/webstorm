@@ -5,12 +5,13 @@
     <script type="text/javascript" src="../lib/angularjs/angular.js"></script>
     <script type="text/javascript" src="../src/application.js"></script>
     <script type="text/javascript" src="../src/controller/MainController.js"></script>
-    <title>Learning AngularJS</title>
+    <title>Learning AngularJS!</title>
   </head>
   <body>
     <section id="content" ng-app="MyTutorialApp" ng-controller="MainController">
       <select ng-model="selectedPerson" ng-options="obj.name for obj in people"></select>
       <select ng-model="selectedGenre">
+        <option style="display:none" value="">Please select...</option>
         <option ng-repeat="label in people[selectedPerson.id].music">{{label}}</option>
       </select>
     </section>

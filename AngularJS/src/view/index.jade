@@ -5,9 +5,10 @@ html
         script(type="text/javascript", src="../lib/angularjs/angular.js")
         script(type="text/javascript", src="../src/application.js")
         script(type="text/javascript", src="../src/controller/MainController.js")
-        title Learning AngularJS
+        title Learning AngularJS!
     body
         section#content(ng-app="MyTutorialApp", ng-controller="MainController")
             select(ng-model="selectedPerson", ng-options="obj.name for obj in people")
             select(ng-model="selectedGenre")
+                option(style="display:none", value="") Please select...
                 option(ng-repeat="label in people[selectedPerson.id].music") {{label}}

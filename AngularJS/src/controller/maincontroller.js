@@ -1,5 +1,4 @@
 application.controller('MainController', function($scope) {
-    $scope.selectedPerson = 0;
     $scope.selectedGenre = null;
     $scope.people = [
         {
@@ -39,4 +38,5 @@ application.controller('MainController', function($scope) {
             ]
         }
     ];
+    $scope.selectedPerson = $scope.people[0];
 });
