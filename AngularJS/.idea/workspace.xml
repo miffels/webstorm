@@ -33,40 +33,7 @@
     <favorites_list name="AngularJS" />
   </component>
   <component name="FileEditorManager">
-    <leaf>
-      <file leaf-file-name="index.jade" pinned="false" current="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/view/index.jade">
-          <provider selected="true" editor-type-id="text-editor">
-            <state line="13" column="86" selection-start="729" selection-end="729" vertical-scroll-proportion="0.0">
-              <folding>
-                <marker date="1372785028405" expanded="true" signature="10:728" placeholder="..." />
-                <marker date="1372785028405" expanded="true" signature="358:728" placeholder="..." />
-                <marker date="1372785028405" expanded="true" signature="374:728" placeholder="..." />
-                <marker date="1372785028405" expanded="true" signature="544:728" placeholder="..." />
-              </folding>
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="test.jade" pinned="false" current="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/view/test.jade">
-          <provider selected="true" editor-type-id="text-editor">
-            <state line="7" column="14" selection-start="193" selection-end="193" vertical-scroll-proportion="0.0">
-              <folding />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="style.scss" pinned="false" current="true" current-in-tab="true">
-        <entry file="file://$PROJECT_DIR$/src/view/style/style.scss">
-          <provider selected="true" editor-type-id="text-editor">
-            <state line="9" column="28" selection-start="107" selection-end="107" vertical-scroll-proportion="0.26243567">
-              <folding />
-            </state>
-          </provider>
-        </entry>
-      </file>
-    </leaf>
+    <leaf />
   </component>
   <component name="FindManager">
     <FindUsagesManager>
@@ -178,6 +145,24 @@
             </PATH_ELEMENT>
             <PATH_ELEMENT>
               <option name="myItemId" value="static" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+          </PATH>
+          <PATH>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="AngularJS" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="AngularJS" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="static" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="style" />
               <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
             </PATH_ELEMENT>
           </PATH>
@@ -349,13 +334,13 @@
   </component>
   <component name="ToolWindowManager">
     <frame x="-8" y="-8" width="1936" height="1056" extended-state="6" />
-    <editor active="true" />
+    <editor active="false" />
     <layout>
       <window_info id="Changes" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
       <window_info id="TODO" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="6" side_tool="false" content_ui="tabs" />
       <window_info id="Find" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.3203125" sideWeight="0.49920928" order="1" side_tool="false" content_ui="tabs" />
       <window_info id="Structure" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.24986821" sideWeight="0.74610245" order="1" side_tool="false" content_ui="tabs" />
-      <window_info id="Project" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" weight="0.090669475" sideWeight="0.6796875" order="0" side_tool="false" content_ui="combo" />
+      <window_info id="Project" active="true" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" weight="0.090669475" sideWeight="0.6796875" order="0" side_tool="false" content_ui="combo" />
       <window_info id="Debug" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.41517857" sideWeight="0.78228784" order="3" side_tool="false" content_ui="tabs" />
       <window_info id="Favorites" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="2" side_tool="true" content_ui="tabs" />
       <window_info id="Event Log" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" weight="0.3203125" sideWeight="0.5002636" order="7" side_tool="true" content_ui="tabs" />
@@ -507,10 +492,10 @@
       <provider selected="true" editor-type-id="text-editor">
         <state line="13" column="86" selection-start="729" selection-end="729" vertical-scroll-proportion="0.0">
           <folding>
-            <marker date="1372785028405" expanded="true" signature="10:728" placeholder="..." />
-            <marker date="1372785028405" expanded="true" signature="358:728" placeholder="..." />
-            <marker date="1372785028405" expanded="true" signature="374:728" placeholder="..." />
-            <marker date="1372785028405" expanded="true" signature="544:728" placeholder="..." />
+            <marker date="1372785028405" expanded="true" signature="-1:-1" placeholder="..." />
+            <marker date="1372785028405" expanded="true" signature="-1:-1" placeholder="..." />
+            <marker date="1372785028405" expanded="true" signature="-1:-1" placeholder="..." />
+            <marker date="1372785028405" expanded="true" signature="-1:-1" placeholder="..." />
           </folding>
         </state>
       </provider>
@@ -524,7 +509,7 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/src/view/style/style.scss">
       <provider selected="true" editor-type-id="text-editor">
-        <state line="9" column="28" selection-start="107" selection-end="107" vertical-scroll-proportion="0.26243567">
+        <state line="7" column="0" selection-start="67" selection-end="67" vertical-scroll-proportion="0.20411664">
           <folding />
         </state>
       </provider>
