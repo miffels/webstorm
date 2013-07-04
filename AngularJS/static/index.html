@@ -9,11 +9,13 @@
   </head>
   <body>
     <section id="content" ng-app="MyTutorialApp" ng-controller="MainController">
-      <select ng-model="selectedPerson" ng-options="obj.name for obj in people"></select>
-      <select ng-model="selectedGenre">
-        <option style="display:none" value="">Please select...</option>
-        <option ng-repeat="label in people[selectedPerson.id].music">{{label}}</option>
-      </select>
+      <input type="text" ng-model="searchText" placeholder="Filter people...">
+      <ul>
+        <li ng-repeat="person in people | filter:searchText" ng-show="person.live">#{{person.id}} {{person.name}}</li>
+      </ul>
+      <input type="text" ng-model="newPerson">
+      <button ng-click="addNew()">Add</button>
     </section>
+    <div id="test">Whatcha looking at?</div>
   </body>
 </html>

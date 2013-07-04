@@ -9,7 +9,8 @@ application.controller('MainController', function($scope) {
                 'Metal',
                 'Dubstep',
                 'Electro'
-            ]
+            ],
+            live: true
         },{
             id: 1,
             name: 'Chris',
@@ -18,7 +19,8 @@ application.controller('MainController', function($scope) {
                 'Drumstep',
                 'Dubstep',
                 'Electro'
-            ]
+            ],
+            live: true
         },{
             id: 2,
             name: 'Harry',
@@ -27,7 +29,8 @@ application.controller('MainController', function($scope) {
                 'Metal',
                 'Thrash Metal',
                 'Heavy Metal'
-            ]
+            ],
+            live: false
         },{
             id: 3,
             name: 'Allyce',
@@ -35,8 +38,20 @@ application.controller('MainController', function($scope) {
                 'Pop',
                 'RnB',
                 'Hip Hop'
-            ]
+            ],
+            live: true
         }
     ];
     $scope.selectedPerson = $scope.people[0];
+    $scope.newPerson = null;
+    $scope.addNew = function() {
+        if($scope.newPerson !== null && $scope.newPerson !== "") {
+            $scope.people.push({
+                id: $scope.people.length,
+                name: $scope.newPerson,
+                live: true,
+                music: []
+            });
+        }
+    }
 });

@@ -2,14 +2,14 @@
 <project version="4">
   <component name="ProjectTasksOptions">
     <TaskOptions isEnabled="true">
-      <option name="arguments" value="$FilePath$ --pretty --out static\$FileDirPathFromParent(view)$" />
+      <option name="arguments" value="$ProjectFileDir$\src\view\index.jade --pretty --out static\" />
       <option name="checkSyntaxErrors" value="true" />
       <option name="description" value="Jade Compiler" />
       <option name="exitCodeBehavior" value="ERROR" />
       <option name="fileExtension" value="jade" />
       <option name="immediateSync" value="true" />
       <option name="name" value="Jade" />
-      <option name="output" value="static\$FileDirPathFromParent(view)$\" />
+      <option name="output" value="static\" />
       <option name="outputFilters">
         <array />
       </option>
